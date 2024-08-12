@@ -3,8 +3,10 @@ version: "3"
 env:
   CLUSTER_NAME: devops-directive-kubernetes-course
   CIVO_REGION: NYC1
-  GCP_REGION: us-central1
-  GCP_ZONE: us-central1-a
+  GCP_REGION: australia-southeast1
+  # GCP_REGION: us-central1
+  GCP_ZONE: australia-southeast1-a
+  # GCP_ZONE: us-central1-a
   # Set default gum style options
   BORDER: double
   BORDER_FOREGROUND: "212"
@@ -134,7 +136,7 @@ tasks:
   gcp:06-create-cluster:
     desc: "Create GKE cluster"
     vars:
-      GCP_PROJECT_ID: kubernetes-course-424917
+      GCP_PROJECT_ID: kubernetes-course-432203
     cmds:
       - |
         gcloud container clusters create ${CLUSTER_NAME} \
