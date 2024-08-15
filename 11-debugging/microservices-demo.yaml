@@ -1,6 +1,6 @@
 # 🚨 NOTE:
 #
-#       This was extracted from https://github.com/sidpalas/microservices-demo/ (a fork of https://github.com/GoogleCloudPlatform/microservices-demo)
+#       This was extracted from https://github.com/tedfan/microservices-demo/ (a fork of https://github.com/GoogleCloudPlatform/microservices-demo)
 #       It introduces a few intentional breaks to demonstrate how to debug applications running in kubernetes
 #
 ########################################################################
